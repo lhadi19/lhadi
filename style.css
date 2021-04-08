@@ -1,0 +1,73 @@
+  body {
+            background-image: url('images/fond_jaune.png');
+        }
+        
+        .logo {
+            font-family: 'Comic Sans MS';
+            font-weight: bold;
+            font-size: 72px;
+        }
+		  a {
+            text-decoration: none;
+            color: black;
+            padding-right: 10px;
+        }
+        
+        .boxed {
+            box-shadow: 10px 10px 5px rgb(2, 2, 2, 0.7);
+            ;
+            background-image: url("images/bangkok.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 200px;
+            color: white;
+        }
+        
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
+        
+        .column {
+            float: left;
+        }
+        
+        
+        .left {
+            width: 75%;
+        }
+        
+        .right {
+            width: 25%;
+        }
+        
+        .half {
+            width: 50%;
+        }
+        
+        .third {
+            width: 33%;
+        }
+        
+        .bull {
+            width: 400px;
+            box-shadow: 10px 10px 5px rgb(2, 2, 2, 0.7);
+            background-size: cover;
+            background-color: #706b64;
+            border-radius: 10px;
+            position: relative;
+            padding-left: 20px;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .row {
+            display: flex;
+            padding-bottom: 15px;
+        }
