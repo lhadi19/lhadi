@@ -1,5 +1,5 @@
   body {
-            background-image: url('images/fond_jaune.png');
+            background-image: url('fond_jaune.png');
         }
         
         .logo {
@@ -16,7 +16,7 @@
         .boxed {
             box-shadow: 10px 10px 5px rgb(2, 2, 2, 0.7);
             ;
-            background-image: url("images/bangkok.jpg");
+            background-image: url("bangkok.jpg");
             background-size: 100%;
             background-repeat: no-repeat;
             background-size: cover;
